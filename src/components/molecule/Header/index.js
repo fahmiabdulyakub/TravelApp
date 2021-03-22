@@ -5,7 +5,7 @@ import {colors, hp, rf, wp} from '../../../constants';
 import {ButtonIconOnly} from '../../atoms';
 import Input from '../Input';
 
-const Header = ({navigation, placeholder, iconRight}) => {
+const Header = ({onPress, placeholder, iconRight}) => {
   return (
     <View style={styles.header}>
       <Input
@@ -18,7 +18,7 @@ const Header = ({navigation, placeholder, iconRight}) => {
         height={hp(4.8)}
         suffixComponent={<ICSearch />}
         widthInput={wp(70)}
-        onPress={() => navigation.navigate('Simpan')}
+        onPress={onPress}
       />
       <ButtonIconOnly icon={iconRight} />
     </View>

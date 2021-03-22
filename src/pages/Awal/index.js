@@ -10,6 +10,7 @@ const Awal = ({navigation}) => {
       <Header
         placeholder={'Cari item, destinasi, fitur...'}
         iconRight={<ICTitik />}
+        onPress={() => navigation.navigate('Simpan')}
       />
       <Gap height={hp(2)} />
       <View style={styles.container}>
