@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity} from 'react-native';
-import {colors, fonts, rf} from '../../../constants';
+import {colors, fonts, hp, rf} from '../../../constants';
 import {
   ICAkun,
   ICAkunBlue,
@@ -52,11 +52,20 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: colors.bg.white,
     flex: 1,
-    paddingVertical: 5,
+    paddingVertical: hp(1),
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 6,
+    },
+    shadowOpacity: 0.37,
+    shadowRadius: 7.49,
+
+    elevation: 12,
   }),
   text: active => ({
     fontSize: rf(1.5),
     color: active ? colors.text.blue2 : colors.text.grayMuda,
-    fontFamily: fonts.MontserratBold,
+    fontFamily: fonts.MontserratMedium,
   }),
 });

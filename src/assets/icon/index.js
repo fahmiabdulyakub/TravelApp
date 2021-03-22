@@ -22,6 +22,8 @@ import ICInbox from './ICInbox.svg';
 import ICAkun from './ICAkun.svg';
 import ICAkunBlue from './ICAkunBlue.svg';
 import ICInboxBlue from './ICInboxBlue.svg';
+import ICTitik from './ICTitik.svg';
+import ICSearch from './ICSearch.svg';
 export {
   ICEmail,
   ICBack,
@@ -47,4 +49,6 @@ export {
   ICInboxBlue,
   ICPesananBlue,
   ICSimpanBlue,
+  ICTitik,
+  ICSearch,
 };

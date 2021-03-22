@@ -2,7 +2,7 @@ import * as React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createStackNavigator} from '@react-navigation/stack';
 import {BottomNavigation} from '../../components';
-import {Profile, Awal, Akun, Simpan, Pesanan, Inbox} from '../../pages';
+import {Awal, Akun, Simpan, Pesanan, Inbox} from '../../pages';
 
 const Stack = createStackNavigator();
 const BottomTab = createBottomTabNavigator();
@@ -20,11 +20,6 @@ const MainApp = () => {
 const Routing = () => {
   return (
     <Stack.Navigator initialRouteName="MainApp">
-      <Stack.Screen
-        name="Profile"
-        component={Profile}
-        options={{headerShown: false}}
-      />
       <Stack.Screen
         name="MainApp"
         component={MainApp}
