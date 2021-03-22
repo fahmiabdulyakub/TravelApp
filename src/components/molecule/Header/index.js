@@ -1,10 +1,11 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import {ICSearch, ICTitik} from '../../../assets';
+import {ICSearch} from '../../../assets';
 import {colors, hp, rf, wp} from '../../../constants';
+import {ButtonIconOnly} from '../../atoms';
 import Input from '../Input';
 
-const Header = ({navigation, placeholder}) => {
+const Header = ({navigation, placeholder, iconRight}) => {
   return (
     <View style={styles.header}>
       <Input
@@ -19,7 +20,7 @@ const Header = ({navigation, placeholder}) => {
         widthInput={wp(70)}
         onPress={() => navigation.navigate('Simpan')}
       />
-      {<ICTitik />}
+      <ButtonIconOnly icon={iconRight} />
     </View>
   );
 };

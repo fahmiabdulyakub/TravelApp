@@ -1,9 +1,6 @@
 import ICEmail from './ICEmail.svg';
 import ICBack from './ICBack.svg';
-import ICEye from './ICEye.svg';
-import ICEyeClose from './ICEyeClose.svg';
 import ICCheck from './ICCheck.svg';
-import ICCalender from './ICCalendar.svg';
 import ICChevron from './ICChevron.svg';
 import ICUser from './ICUser.svg';
 import ICCamera from './ICCamera.svg';
@@ -24,13 +21,12 @@ import ICAkunBlue from './ICAkunBlue.svg';
 import ICInboxBlue from './ICInboxBlue.svg';
 import ICTitik from './ICTitik.svg';
 import ICSearch from './ICSearch.svg';
+import ICReceipt from './ICReceipt.svg';
+import ICPindai from './ICPindai.svg';
 export {
   ICEmail,
   ICBack,
-  ICEye,
-  ICEyeClose,
   ICCheck,
-  ICCalender,
   ICChevron,
   ICUser,
   ICCamera,
@@ -51,4 +47,6 @@ export {
   ICSimpanBlue,
   ICTitik,
   ICSearch,
+  ICReceipt,
+  ICPindai,
 };
